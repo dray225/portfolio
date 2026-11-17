@@ -1,0 +1,42 @@
+========================================================================
+HOW TO UPDATE YOUR VIDEO INTRODUCTION EMBED LINK
+========================================================================
+
+When your personal Video Introduction (Video CV) is ready and uploaded 
+to YouTube as an Unlisted video, follow these quick steps:
+
+STEP 1: GET YOUR YOUTUBE VIDEO ID
+----------------------------------
+From your YouTube video link, copy the 11-character video ID.
+Examples:
+- If link is: https://youtu.be/abc123XYZ45
+  -> Your ID is: abc123XYZ45
+- If link is: https://www.youtube.com/watch?v=abc123XYZ45
+  -> Your ID is: abc123XYZ45
+
+
+STEP 2: OPEN index.html
+------------------------
+Open "index.html" in VS Code, Notepad, or any code editor.
+Search for: "videoEmbedFrame" (around line 180).
+
+You will see:
+<iframe 
+  id="videoEmbedFrame"
+  src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0" 
+  title="Yeareed Mahmud - Video Introduction" 
+  ...
+
+
+STEP 3: REPLACE THE ID
+-----------------------
+Replace "dQw4w9WgXcQ" with your own 11-character video ID.
+For example:
+  src="https://www.youtube-nocookie.com/embed/abc123XYZ45?rel=0"
+
+
+STEP 4: SAVE & TEST
+--------------------
+Save the file and refresh your browser. Your unlisted video will now 
+play seamlessly in the portfolio!
+========================================================================

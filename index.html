@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yeareed Mahmud | Data Analyst & Software Specialist</title>
+  <meta name="description" content="Portfolio of Yeareed Mahmud — Data Analyst & Software Specialist with a Computer Science & Data Science background.">
+  <meta name="author" content="Yeareed Mahmud">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Yeareed Mahmud | Data Analyst & Developer ePortfolio">
+  <meta property="og:description" content="Data Analyst & Developer specializing in MySQL, Python, Power BI, and AI workflows.">
+  <meta property="og:image" content="assets/profile-picture.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon / Browser Tab Icon: Circular Profile Picture -->
+  <link rel="icon" type="image/png" href="assets/circle-pfp.png">
+  <link rel="apple-touch-icon" href="assets/circle-pfp.png">
+
+  <!-- Google Fonts: Chakra Petch (Sleek Tech Display), JetBrains Mono (Code/HUD), Plus Jakarta Sans (Body Text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cyber Tech Grid Background -->
+  <div class="cyber-grid-overlay" aria-hidden="true"></div>
+
+  <!-- SINGLE UNIFIED NAVIGATION BAR -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo: portfolio:// YEAREED -->
+      <a href="#hero" class="brand-logo" aria-label="Yeareed Mahmud Home">
+        <span class="logo-protocol">portfolio://</span>
+        <span class="logo-name">YEAREED</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link active"><i class="fa-solid fa-user-astronaut"></i> About</a></li>
+          <li><a href="#video-cv" class="nav-link"><i class="fa-solid fa-circle-play"></i> Video CV</a></li>
+          <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+          <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fa-solid fa-bolt"></i> Skills</a></li>
+          <li><a href="#projects" class="nav-link"><i class="fa-solid fa-cubes"></i> Projects</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fa-solid fa-headset"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Items: Theme Switcher & Resume PDF -->
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-solid fa-moon moon-icon"></i>
+        </button>
+
+        <a href="assets/Yeareed_Mahmud_Resume.pdf" download="Yeareed_Mahmud_Resume.pdf" class="btn btn-tech btn-outline btn-sm">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume PDF</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- HERO SECTION -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <!-- Status Indicator Badge -->
+          <div class="hud-status-badge">
+            <span class="status-pulse-dot"></span>
+            <span class="status-badge-text">STATUS: AVAILABLE FOR DATA ANALYST ROLES</span>
+          </div>
+
+          <h1 class="hero-title">
+            Yeareed <span class="gradient-text">Mahmud</span>
+          </h1>
+
+          <div class="hero-role-line">
+            <span class="role-arrow">&gt;</span>
+            <span class="hero-role-text">Data Specialist &bull; B.Sc. in Data Science &bull; AI Workflows</span>
+          </div>
+
+          <p class="hero-summary">
+            Computer Science &amp; Data Science graduate with hands-on experience collecting, validating, and extracting actionable intelligence from event, survey, and relational datasets. Skilled in <strong>MySQL, Python, Power BI, Advanced Excel</strong>, and deploying practical <strong>AI workflows</strong> to streamline business reporting.
+          </p>
+
+          <div class="hero-location-tag">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Uttara, Dhaka, Bangladesh</span>
+            <span class="dot-separator">&bull;</span>
+            <span class="ready-badge"><i class="fa-solid fa-circle-check"></i> Ready to Deploy</span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#video-cv" class="btn btn-tech btn-primary">
+              <i class="fa-solid fa-play"></i> Watch Video CV
+            </a>
+            <a href="#projects" class="btn btn-tech btn-secondary">
+              <i class="fa-solid fa-cubes"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-tech btn-outline">
+              <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Quick Metrics HUD Bar -->
+          <div class="hud-metrics-bar">
+            <div class="metric-item">
+              <span class="metric-value">3.82</span>
+              <span class="metric-label">CGPA / 4.00</span>
+            </div>
+            <div class="metric-divider">/</div>
+            <div class="metric-item">
+              <span class="metric-value">1,000+</span>
+              <span class="metric-label">Tournament Records</span>
+            </div>
+            <div class="metric-divider">/</div>
+            <div class="metric-item">
+              <span class="metric-value">15 Yrs</span>
+              <span class="metric-label">CS Foundation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Focused Profile Visual Card -->
+        <div class="hero-visual">
+          <div class="profile-tech-card">
+            
+            <div class="profile-image-frame">
+              <img src="assets/profile-picture.jpg" alt="Yeareed Mahmud" class="profile-portrait-img">
+              <div class="profile-floating-badge">
+                <i class="fa-solid fa-chart-line"></i> CGPA 3.82 / 4.00
+              </div>
+            </div>
+
+            <div class="profile-card-details">
+              <h3 class="profile-card-name">Yeareed Mahmud</h3>
+              <p class="profile-card-role">Data Analyst &bull; Esports Organizer</p>
+
+              <div class="profile-social-strip">
+                <a href="https://linkedin.com/in/yeareed" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/dray225" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:yeareed.mahmud@gmail.com" class="social-icon-btn" title="Email Direct" aria-label="Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:+8801314447337" class="social-icon-btn" title="Phone" aria-label="Phone">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (Academic Identity & Aspirations) -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tech-badge"><i class="fa-solid fa-terminal"></i> QUEST LOG</span>
+          <h2 class="section-heading">Academic Identity &amp; Aspirations</h2>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="tech-box">
+            <div class="tech-box-header">
+              <i class="fa-solid fa-graduation-cap box-icon"></i>
+              <h3>Academic Identity</h3>
+            </div>
+            <p>
+              Holding a <strong>B.Sc. in Data Science (CGPA 3.82 / 4.00)</strong> from AIUB, built upon a 15-year Computer Science background through <strong>Sir John Wilson School (IGCSE &amp; IAL)</strong>. My curriculum centered on relational database design, statistical hypothesis testing, data engineering, and machine learning.
+            </p>
+          </div>
+
+          <div class="tech-box">
+            <div class="tech-box-header">
+              <i class="fa-solid fa-crosshairs box-icon"></i>
+              <h3>Career Aspirations</h3>
+            </div>
+            <p>
+              Aspirations centered on joining a data-driven organization as a <strong>Data Analyst</strong>. I focus on turning complex datasets into executive dashboards in <strong>Power BI / Looker Studio</strong>, automating routine data processes with Python and AI tools (ChatGPT, Claude, Gemini), and communicating insights clearly to cross-functional stakeholders.
+            </p>
+          </div>
+
+          <div class="tech-box">
+            <div class="tech-box-header">
+              <i class="fa-solid fa-server box-icon"></i>
+              <h3>Self-Directed Engineering</h3>
+            </div>
+            <p>
+              An active tinkerer who repurposes legacy laptops into a <strong>headless Linux home server</strong>. Regularly configuring remote SSH access, shell scripts, and automated background jobs to maintain a private sandbox for data experiments and open-source tooling.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIDEO INTRODUCTION SECTION (Clean, Focused, Direct) -->
+    <section class="section video-section" id="video-cv">
+      <div class="container">
+        
+        <div class="section-title-wrap text-center">
+          <span class="section-tech-badge"><i class="fa-solid fa-video"></i> VIDEO INTRODUCTION</span>
+          <h2 class="section-heading">Personal Introduction &bull; Video CV</h2>
+          <p class="section-desc">A brief personal overview of my technical toolkit, project experience, and analytical problem-solving approach.</p>
+        </div>
+
+        <!-- Clean Arcade Video Screen Container -->
+        <div class="video-screen-card">
+          <div class="screen-header-bar">
+            <div class="screen-traffic-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="screen-title"><i class="fa-brands fa-youtube"></i> Video Introduction &bull; Yeareed Mahmud</span>
+          </div>
+
+          <div class="video-embed-container">
+            <!-- YouTube Video Embed (Replaceable URL) -->
+            <iframe 
+              id="videoEmbedFrame"
+              src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0" 
+              title="Yeareed Mahmud - Video Introduction" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="screen-footer-bar">
+            <a href="#contact" class="btn btn-tech btn-primary">
+              <i class="fa-solid fa-calendar-check"></i> Schedule an Interview
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL JOURNEY / EXPERIENCE (High Contrast & Clean) -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tech-badge"><i class="fa-solid fa-briefcase"></i> CAMPAIGN LOG</span>
+          <h2 class="section-heading">Professional Experience</h2>
+          <p class="section-desc">Hands-on consultancy, tournament database operations, and system administration.</p>
+        </div>
+
+        <div class="experience-list">
+          
+          <!-- Experience 1: Ascend International -->
+          <div class="experience-card">
+            <div class="experience-side-meta">
+              <div class="experience-icon-badge"><i class="fa-solid fa-chart-line"></i></div>
+              <span class="experience-date-pill">2025 &ndash; PRESENT</span>
+            </div>
+            <div class="experience-main-content">
+              <div class="experience-header">
+                <h3 class="experience-role">Consultant &bull; Youth Skill Development Project</h3>
+                <span class="experience-company"><i class="fa-solid fa-building"></i> Ascend International Ltd</span>
+              </div>
+              <p class="experience-summary-line">
+                Translating student demographic feedback and program data into clear business recommendations.
+              </p>
+              <ul class="experience-bullets">
+                <li><strong>Demographic Data Translation:</strong> Advised on program decisions by categorizing student preferences into practical curriculum improvements.</li>
+                <li><strong>Feedback Analytics:</strong> Analyzed participant survey trends to optimize program engagement and positioning.</li>
+                <li><strong>UI/UX Prototyping:</strong> Designed interaction concepts that improved platform accessibility for young learners.</li>
+                <li><strong>Stakeholder Reporting:</strong> Synthesized analytical findings into clear, non-technical presentations for executive stakeholders.</li>
+              </ul>
+              <div class="tech-tag-row">
+                <span class="tech-tag">Survey Analysis</span>
+                <span class="tech-tag">UI/UX Concepts</span>
+                <span class="tech-tag">Stakeholder Reporting</span>
+                <span class="tech-tag">Decision Support</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: AIUB eSports Club -->
+          <div class="experience-card">
+            <div class="experience-side-meta">
+              <div class="experience-icon-badge esports"><i class="fa-solid fa-trophy"></i></div>
+              <span class="experience-date-pill">OCT 2025 &ndash; PRESENT</span>
+            </div>
+            <div class="experience-main-content">
+              <div class="experience-header">
+                <h3 class="experience-role">Head of Content &amp; Tournament Database Lead</h3>
+                <span class="experience-company"><i class="fa-solid fa-gamepad"></i> AIUB eSports Club (AIUB)</span>
+              </div>
+              <p class="experience-summary-line">
+                Managing tournament databases, participant validation, and administrative documentation.
+              </p>
+              <ul class="experience-bullets">
+                <li><strong>MySQL Database Operations:</strong> Maintained team and participant relational databases for multi-tier tournaments, validating entries to ensure accurate scheduling and match records.</li>
+                <li><strong>AIUB Homegrounds 2026:</strong> Co-led operations for online qualifiers leading into a 3-day on-campus LAN final across four major gaming titles with sponsor-backed prize pools.</li>
+                <li><strong>Match Administration:</strong> Supervised lobbies, brackets, and real-time player dispute resolutions through to tournament finals.</li>
+                <li><strong>Communications &amp; Seminars:</strong> Directed club writing, PR communications, and organized industry seminars with local game studios: <em>Hammershot Games, Battery Low Interactive, and Studio Aloukik</em>.</li>
+              </ul>
+              <div class="tech-tag-row">
+                <span class="tech-tag">MySQL Relational DB</span>
+                <span class="tech-tag">Data Validation</span>
+                <span class="tech-tag">LAN Operations</span>
+                <span class="tech-tag">Tournament Admin</span>
+                <span class="tech-tag">Studio Partnerships</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3: Linux Homelab -->
+          <div class="experience-card">
+            <div class="experience-side-meta">
+              <div class="experience-icon-badge server"><i class="fa-solid fa-server"></i></div>
+              <span class="experience-date-pill">SELF-DIRECTED</span>
+            </div>
+            <div class="experience-main-content">
+              <div class="experience-header">
+                <h3 class="experience-role">Systems Enthusiast &bull; Linux Homelab Server</h3>
+                <span class="experience-company"><i class="fa-solid fa-laptop-code"></i> Independent Infrastructure</span>
+              </div>
+              <p class="experience-summary-line">
+                Repurposing refurbished hardware into continuous Linux server environments.
+              </p>
+              <ul class="experience-bullets">
+                <li>Configured headless Debian/Ubuntu installations on repurposed laptops for low-power operation.</li>
+                <li>Implemented remote SSH key access, bash automations, and scheduled cron jobs.</li>
+                <li>Maintained private test environments for script testing and data extraction tools.</li>
+              </ul>
+              <div class="tech-tag-row">
+                <span class="tech-tag">Linux / Bash</span>
+                <span class="tech-tag">Hardware Repurposing</span>
+                <span class="tech-tag">SSH &amp; Cron</span>
+                <span class="tech-tag">System Administration</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Resume Download Banner -->
+        <div class="resume-download-strip">
+          <div class="resume-strip-text">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Looking for a printable PDF version of my resume?</span>
+          </div>
+          <a href="assets/Yeareed_Mahmud_Resume.pdf" download="Yeareed_Mahmud_Resume.pdf" class="btn btn-tech btn-primary btn-sm">
+            <i class="fa-solid fa-download"></i> Download Resume (.PDF)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tech-badge"><i class="fa-solid fa-school"></i> CREDENTIALS</span>
+          <h2 class="section-heading">Education &amp; Background</h2>
+        </div>
+
+        <div class="education-grid">
+          
+          <div class="edu-card highlight">
+            <div class="edu-card-badge">CGPA 3.82 / 4.00</div>
+            <div class="edu-card-year">2025 &ndash; 2028</div>
+            <h3 class="edu-card-degree">Bachelor of Science in Data Science</h3>
+            <h4 class="edu-card-school">American International University-Bangladesh (AIUB)</h4>
+            <p class="edu-card-desc">
+              Comprehensive training in statistics, relational database architectures, exploratory data analysis, and predictive machine learning.
+            </p>
+            <div class="edu-tags-row">
+              <span>SQL</span>
+              <span>Statistics</span>
+              <span>Data Processing</span>
+              <span>Data Analysis</span>
+              <span>Machine Learning</span>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card-badge">EDEXCEL &amp; CAMBRIDGE CURRICULUM</div>
+            <div class="edu-card-year">2009 &ndash; 2024</div>
+            <h3 class="edu-card-degree">IGCSE and International A Levels (IAL)</h3>
+            <h4 class="edu-card-school">Sir John Wilson School, Dhaka</h4>
+            <p class="edu-card-desc">
+              15 years of structured education under Edexcel and Cambridge international curricula with a strong emphasis on Computer Science, algorithm design, data structures, and mathematics.
+            </p>
+            <div class="edu-tags-row">
+              <span>Edexcel</span>
+              <span>Cambridge</span>
+              <span>Computer Science</span>
+              <span>Mathematics</span>
+              <span>Algorithm Logic</span>
+              <span>Data Structures</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS & CAPABILITIES SECTION (Concise & Compact) -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tech-badge"><i class="fa-solid fa-bolt"></i> TECH TREE</span>
+          <h2 class="section-heading">Skills &amp; Capabilities</h2>
+          <p class="section-desc">Concise overview of technical proficiencies, analytical tools, and soft skills.</p>
+        </div>
+
+        <div class="compact-skills-grid">
+          
+          <!-- Category 1: Databases -->
+          <div class="skill-group-box">
+            <div class="skill-group-header">
+              <i class="fa-solid fa-database group-icon"></i>
+              <h4>Databases &amp; Wrangling</h4>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> MySQL &amp; SQL Queries</span>
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Relational DB Design</span>
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Data Cleaning &amp; Validation</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> API &amp; JSON Extraction</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Error Investigation</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming & Dev Tools -->
+          <div class="skill-group-box">
+            <div class="skill-group-header">
+              <i class="fa-solid fa-code group-icon"></i>
+              <h4>Programming &amp; Dev Tools</h4>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Python (Pandas, Jupyter)</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> R Programming</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> C# &amp; C++</span>
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Git &amp; GitHub</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Linux Server / Bash</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Analytics & BI -->
+          <div class="skill-group-box">
+            <div class="skill-group-header">
+              <i class="fa-solid fa-chart-pie group-icon"></i>
+              <h4>Visualization &amp; BI</h4>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Power BI &amp; Looker Studio</span>
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> MS Excel (Pivots, XLOOKUP)</span>
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Google Sheets</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Matplotlib / Seaborn Charts</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Executive Reporting</span>
+            </div>
+          </div>
+
+          <!-- Category 4: AI & Productivity -->
+          <div class="skill-group-box">
+            <div class="skill-group-header">
+              <i class="fa-solid fa-robot group-icon"></i>
+              <h4>AI &amp; Productivity</h4>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> ChatGPT, Claude &amp; Gemini</span>
+              <span class="skill-chip active"><i class="fa-solid fa-check"></i> Automated Workflows</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Prompt Engineering</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Technical Documentation</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> UI/UX Design Concepts</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Leadership & Languages -->
+          <div class="skill-group-box full-width">
+            <div class="skill-group-header">
+              <i class="fa-solid fa-users-gear group-icon"></i>
+              <h4>Leadership, Training &amp; Languages</h4>
+            </div>
+            <div class="leadership-grid">
+              <div class="lead-card">
+                <i class="fa-solid fa-certificate"></i>
+                <div>
+                  <strong>BYLCx Leadership Training (2020)</strong>
+                  <span>Project management, public speaking, and team communication.</span>
+                </div>
+              </div>
+              <div class="lead-card">
+                <i class="fa-solid fa-language"></i>
+                <div>
+                  <strong>Multilingual Communication</strong>
+                  <span>English (Professional) &bull; Bangla (Native) &bull; Hindi (Professional).</span>
+                </div>
+              </div>
+              <div class="lead-card">
+                <i class="fa-solid fa-handshake"></i>
+                <div>
+                  <strong>Industry Collaboration</strong>
+                  <span>Seminars with Hammershot Games, Battery Low Interactive, and Studio Aloukik.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION (3 Projects, ONLY View on GitHub button) -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tech-badge"><i class="fa-solid fa-cubes"></i> INVENTORY</span>
+          <h2 class="section-heading">Featured Projects &amp; Research</h2>
+          <p class="section-desc">Empirical research studies, data investigations, and open-source tools.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Gaming Habits -->
+          <article class="project-box">
+            <div class="project-badge"><i class="fa-solid fa-flask"></i> Research Project</div>
+            <h3 class="project-title">Gaming Habits and Academic Performance Analysis</h3>
+            <p class="project-desc">
+              An empirical research study evaluating survey data collected at club events to examine the statistical relationship between gaming habits, sleep schedules, and academic performance.
+            </p>
+            <ul class="project-bullets">
+              <li>Conducted complete data cleaning, outlier detection, and normalization in Python.</li>
+              <li>Generated exploratory data visualizations and correlation matrices in Jupyter.</li>
+              <li>Documented actionable findings regarding academic time management.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Jupyter</span>
+              <span>Pandas</span>
+              <span>Seaborn</span>
+              <span>EDA</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/dray225" target="_blank" rel="noopener noreferrer" class="btn btn-tech btn-primary btn-sm">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Sustainability of Esports -->
+          <article class="project-box">
+            <div class="project-badge"><i class="fa-solid fa-chart-line"></i> Industry Research</div>
+            <h3 class="project-title">Sustainability of Esports in Bangladesh</h3>
+            <p class="project-desc">
+              A comprehensive industry analysis evaluating the financial viability, tournament participation rates, and institutional growth of the esports landscape in Bangladesh.
+            </p>
+            <ul class="project-bullets">
+              <li>Analyzed event participation figures, prize pool distributions, and audience retention metrics.</li>
+              <li>Synthesized market insights into structured recommendations for local tournament organizers.</li>
+              <li>Documented clear growth roadmaps for competitive university networks.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Data Analysis</span>
+              <span>Market Research</span>
+              <span>Ecosystem Modeling</span>
+              <span>Strategic Insights</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/dray225" target="_blank" rel="noopener noreferrer" class="btn btn-tech btn-primary btn-sm">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Universal Message Timestamp Creator -->
+          <article class="project-box">
+            <div class="project-badge"><i class="fa-solid fa-wrench"></i> Developer Tool</div>
+            <h3 class="project-title">Universal Message Timestamp Creator</h3>
+            <p class="project-desc">
+              A Python utility that generates universal Unix epoch timestamps for remote collaboration platforms such as Slack, Microsoft Teams, and Discord, auto-converting time across timezones.
+            </p>
+            <ul class="project-bullets">
+              <li>Parses standard datetime inputs into dynamic markdown timestamp strings.</li>
+              <li>Resolves cross-timezone coordination friction for distributed teams and tournament lobbies.</li>
+              <li>Lightweight, modular architecture with zero heavy dependencies.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Timezone APIs</span>
+              <span>Discord/Slack</span>
+              <span>Open Source</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/dray225" target="_blank" rel="noopener noreferrer" class="btn btn-tech btn-primary btn-sm">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tech-badge"><i class="fa-solid fa-headset"></i> MULTIPLAYER</span>
+          <h2 class="section-heading">Get in Touch</h2>
+          <p class="section-desc">Open for Data Analyst roles, research collaborations, or technical consultations.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Direct Contact Information -->
+          <div class="contact-info-panel">
+            <h3>Direct Contact</h3>
+            <p>I typically respond within 24 hours. Feel free to copy my email or phone number below:</p>
+
+            <div class="contact-channels">
+              
+              <div class="channel-row">
+                <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-data">
+                  <span class="channel-label">EMAIL</span>
+                  <a href="mailto:yeareed.mahmud@gmail.com" class="channel-val">yeareed.mahmud@gmail.com</a>
+                </div>
+                <button class="tech-copy-btn" data-copy="yeareed.mahmud@gmail.com" title="Copy Email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="channel-row">
+                <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="channel-data">
+                  <span class="channel-label">PHONE / WHATSAPP</span>
+                  <a href="tel:+8801314447337" class="channel-val">+880 1314-447337</a>
+                </div>
+                <button class="tech-copy-btn" data-copy="+8801314447337" title="Copy Phone">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="channel-row">
+                <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="channel-data">
+                  <span class="channel-label">LOCATION</span>
+                  <span class="channel-val">Uttara, Dhaka, Bangladesh</span>
+                </div>
+              </div>
+
+              <div class="channel-row">
+                <div class="channel-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="channel-data">
+                  <span class="channel-label">NETWORKS</span>
+                  <div class="channel-links">
+                    <a href="https://linkedin.com/in/yeareed" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-linkedin"></i> linkedin.com/in/yeareed
+                    </a>
+                    <a href="https://github.com/dray225" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-github"></i> github.com/dray225
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="location-availability-note">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Available for on-site roles in Dhaka, regional projects, and remote international contracts.</span>
+            </div>
+          </div>
+
+          <!-- Clean Contact Form -->
+          <div class="contact-form-panel">
+            <h3>Send a Message</h3>
+            
+            <form id="contactForm" class="tech-form" novalidate>
+              <div class="form-group">
+                <label for="contactName">Name <span class="required">*</span></label>
+                <input type="text" id="contactName" name="name" placeholder="Your name / Company" required>
+                <span class="field-error" id="nameError">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email <span class="required">*</span></label>
+                <input type="email" id="contactEmail" name="email" placeholder="you@domain.com" required>
+                <span class="field-error" id="emailError">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject <span class="required">*</span></label>
+                <input type="text" id="contactSubject" name="subject" placeholder="Data Analyst Opportunity / Inquiry" required>
+                <span class="field-error" id="subjectError">Please provide a subject</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message <span class="required">*</span></label>
+                <textarea id="contactMessage" name="message" rows="4" placeholder="Hi Yeareed, let's connect..." required></textarea>
+                <span class="field-error" id="messageError">Please type your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-tech btn-primary btn-block" id="submitBtn">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+
+              <div class="form-feedback" id="formStatus" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CLEAN FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <!-- Brand Logo in Footer -->
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-protocol">portfolio://</span>
+          <span class="logo-name">YEAREED</span>
+        </a>
+        <p class="footer-tagline">Data Analyst &bull; Esports Organizer &bull; B.Sc. in Data Science</p>
+      </div>
+
+      <div class="footer-center">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#video-cv">Video CV</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <p>&copy; <span id="currentYear"></span> Yeareed Mahmud. All rights reserved.</p>
+        <div class="footer-social-icons">
+          <a href="assets/Yeareed_Mahmud_Resume.pdf" download="Yeareed_Mahmud_Resume.pdf" title="Download PDF Resume"><i class="fa-solid fa-file-pdf"></i></a>
+          <a href="https://github.com/dray225" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/yeareed" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div class="toast" id="toastNotification" role="alert" aria-live="assertive"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
