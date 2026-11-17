@@ -1,28 +1,6 @@
-# Yeareed Mahmud &mdash; Professional Developer & Data Analyst ePortfolio (Iteration 4)
-
+# Yeareed Mahmud &mdash; Professional Developer & Data Analyst ePortfolio 
 A clean, polished, and corporate-sharp **Modern Tech & Developer ePortfolio** built with semantic **HTML5**, modern **CSS3**, and vanilla **JavaScript**.
 
----
-
-## 🚀 What's New in Iteration 4
-
-1. **Toolbar Brand Logo Updated:**
-   - Redesigned the top-left navigation logo to the tech URI protocol format:
-     ```text
-     portfolio://
-     YEAREED
-     ```
-   - Features `portfolio://` in accent cyan and `YEAREED` in bold geometric display typography with clean line-height.
-
-2. **Education (IGCSE Part Updated):**
-   - Updated badge to: **`EDEXCEL & CAMBRIDGE CURRICULUM`**
-   - Updated description to explicitly mention both curricula:
-     > *"15 years of structured education under Edexcel and Cambridge international curricula with a strong emphasis on Computer Science, algorithm design, data structures, and mathematics."*
-
-3. **Browser Tab Icon (Favicon):**
-   - Configured the browser tab icon to use your circular profile picture (`assets/circle-pfp.png`).
-
----
 
 ## 📁 Project Structure
 
@@ -61,32 +39,6 @@ python -m http.server 8000
 ```
 Then visit `http://localhost:8000` in your web browser.
 
----
-
-## 🌐 Deploying to GitHub Pages (Step-by-Step)
-
-1. Open your terminal inside the `iteration 4` directory:
-   ```bash
-   cd "iteration 4"
-   git init
-   git add .
-   git commit -m "Release iteration 4: Perfected Developer ePortfolio"
-   git branch -M main
-   ```
-
-2. Connect to your GitHub repository and push:
-   ```bash
-   git remote add origin https://github.com/dray225/eportfolio.git
-   git push -u origin main --force
-   ```
-
-3. Enable GitHub Pages:
-   - On GitHub, go to **Settings > Pages**.
-   - Under **Build and deployment > Source**, select **Deploy from a branch**.
-   - Choose branch **`main`** and folder **`/ (root)`**, then click **Save**.
-   - Your site will be live at: `https://dray225.github.io/eportfolio/`
-
----
 
 ## 📄 License & Credits
 - **Candidate:** Yeareed Mahmud
